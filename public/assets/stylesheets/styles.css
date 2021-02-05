@@ -1,0 +1,83 @@
+:root {
+  /* --soft-blue: #00a8ff; */
+  /* --primary: #05668d; */
+  /* --primary: #084c61; */
+  --primary: #0a1128 !important;
+  /* --primary: #042a2b; */
+  --border: #ee2e31;
+  --hard-blue: #273c75;
+  --dark-overlay: rgba(22, 21, 21, 0.178);
+  --light-white: rgba(255, 255, 255, 0.527);
+  --text: #2f3640;
+  --light-text: #f8f9fa;
+  --facebook-blue: #4267b2;
+  --twitter-blue: #1da1f2;
+}
+body {
+  height: 100vh;
+  font-family: "lato", "Roboto", "monsterat";
+}
+
+/* -----------------Header------------------------- */
+
+header {
+  /* padding: 12px; */
+  background-color: var(--primary);
+  min-width: 100%;
+}
+
+a {
+  color: rgb(206, 206, 206);
+}
+.navbar-brand {
+  font-family: "Satisfy", cursive;
+  font-size: 32px;
+}
+.form-group input {
+  width: 97%;
+  padding: 10px;
+}
+
+.form-group input::placeholder {
+  color: #ccc;
+}
+
+/* -----------------Main section------------------------- */
+
+span i {
+  transition: all 0.3s;
+  cursor: pointer;
+}
+span i:hover {
+  transition: all 0.3s;
+  cursor: pointer;
+  color: green !important;
+}
+a:hover {
+  color: #0e71b3 !important;
+}
+
+.btn {
+  background-color: inherit !important;
+  border: 1px solid #0a1128;
+  color: #0a1128;
+}
+.btn:hover {
+  background-color: #0a1128 !important;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.jumbotron {
+  background-color: #0a1128;
+}
+.jumbotron .btn {
+  background-color: inherit !important;
+  border: 1px solid #fff;
+  color: #fff;
+}
+.jumbotron .btn:hover {
+  background-color: #fff !important;
+  border: 1px solid #0a1128;
+  color: #0a1128;
+}
